@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    height: 80px;
+    z-index: 1000;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Content styles */
+  .content {
+    padding: 20px;
+  }
+  
+
+ ul {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 1px solid #e5e5e5; */
+    padding: 10px 120px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+li:hover {
+    color: #d64949;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.shopDiv {
+    background-image: url('./images/love-at-first-sight-with-no-banner-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+
+button {
+    color: white;
+    background: #DC1D48;
+    border: none;
+    padding: 5px;
+    position: absolute;
+    top: 64%;
+    left: 74%;
+    font-size: 24px;
+    transform: translate(0, -50%);
+    padding: 6px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d64949;
+    transition: 0.5s;
+}
+
+.biscuitCategory {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #F6B99D;
+    /* min-height: 800px; */
+    height: 800px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+#royalText {
+    font-size: 42px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-family: arial;
+    padding-bottom: 10px;
+    line-height: 48px;
+
+}
+
+.biscuitCategory {
+    position: relative;
+    top: 30%;
+}
+
+.cat-text {
+    /* padding: 20px; */
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    height: auto;
+    text-transform: uppercase;
+    /* padding: 20px; */
+    text-align: center;
+
+}
+
+#feel-royalty-text {
+    /* color: #8d401a; */
+    font-size: 26px;
+    font-family: Roboto;
+    padding: 20px 20px;
+    letter-spacing: 4px;
+    line-height: 35px;
+}
+
+#explore-text {
+    display: inline-block;
+    padding: 0 35px;
+    color: #8f0000;
+    font-size: 20px;
+    font-family: Champagne Limousines;
+    text-transform: uppercase;
+    line-height: 48px;
+}
+
+
+.biscuit-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    gap: 60px;
+
+
+}
+
+#part1 {
+    top: 40%;
+}
+
+#part2 {
+    top: 70%;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px
+}
+
+.tehzeeb-meet {
+    background-image: url('./images/time_greet_new_img-1-1-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    height: 80vh;
+
+}
+
+.breadDiv {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0.5% 0px;
+    height: 80vh;
+    background-color: rgb(234, 187, 180);
+
+}
+
+.bread {}
+
+#breadText {
+    font-size: 42px;
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-family: arial;
+    line-height: 48px;
+    color: #B96F50;
+}
+
+.text-container {
+    text-align: center;
+    gap: 40px;
+    left: 30%;
+    position: absolute;
+}
+
+p {
+    color: white;
+}
